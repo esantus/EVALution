@@ -3,10 +3,11 @@ Dataset containing Semantic Relations and Metadata, for Training and Evaluating 
 
 
 
-Reference
+Cite Us
 
-If you use the resource, please cite: Enrico Santus, Frances Yung, Alessandro Lenci, and Chu-Ren Huang. 2015. EVALution 1.0: An Evolving Semantic Dataset for Training and Evaluation of Distributional Semantic Models. Proceedings of the 4th Workshop on
-Linked Data in Linguistics, Beijing.
+The resource is freely available. If you use it, please cite the description paper:
+
+- Enrico Santus, Frances Yung, Alessandro Lenci, and Chu-Ren Huang. 2015. EVALution 1.0: An Evolving Semantic Dataset for Training and Evaluation of Distributional Semantic Models. Proceedings of the 4th Workshop on Linked Data in Linguistics, Beijing.
 
 
 
@@ -64,8 +65,7 @@ CORPORA USED FOR THE ANALYSIS
 - WaCkypedia_EN: a 2009 dump of the English Wikipedia (about 800 million tokens), in the same format as PukWaC, including POS/lemma information, as well as a full dependency parse (parsing performed with the MaltParser). The texts were extracted from the dump and cleaned using the Wikipedia extractor.
 
 You can find more information about the corpora in the following papers:
-M. Baroni, S. Bernardini, A. Ferraresi and E. Zanchetta. 2009. The WaCky Wide Web: A Collection of Very Large Linguistically Processed Web-Crawled Corpora. Language Resources and Evaluation 43(3): 209-226 (PDF).
-M. Baroni and S. Bernardini (eds.). 2006. Wacky! Working papers on the Web as Corpus. Bologna: GEDIT. (Webpage)
-G. Faaß, U. Heid, and H. Schmid. 2010. Design and application of a Gold Standard for morphological analysis: SMOR in validation. In Proceedings of the seventh LREC conference , pages 803 – 810, Valetta, Malta, May 19 – 21 2010. European Language Resources Association (ELRA) (PDF).
-A. Ferraresi. 2007. Building a very large corpus of English obtained by Web crawling: ukWaC. Master Thesis, University of Bologna (PDF)
-A. Ferraresi, E. Zanchetta, M. Baroni and S. Bernardini. 2008. Introducing and evaluating ukWaC, a very large web-derived corpus of English. In S. Evert, A. Kilgarriff and S. Sharoff (eds.) Proceedings of the 4th Web as Corpus Workshop (WAC-4) – Can we beat Google?, Marrakech, 1 June 2008. (PDF) (Webpage)
+- M. Baroni, S. Bernardini, A. Ferraresi and E. Zanchetta. 2009. The WaCky Wide Web: A Collection of Very Large Linguistically Processed Web-Crawled Corpora. Language Resources and Evaluation 43(3): 209-226 (PDF).
+- M. Baroni and S. Bernardini (eds.). 2006. Wacky! Working papers on the Web as Corpus. Bologna: GEDIT. (Webpage)
+- A. Ferraresi. 2007. Building a very large corpus of English obtained by Web crawling: ukWaC. Master Thesis, University of Bologna (PDF)
+- A. Ferraresi, E. Zanchetta, M. Baroni and S. Bernardini. 2008. Introducing and evaluating ukWaC, a very large web-derived corpus of English. In S. Evert, A. Kilgarriff and S. Sharoff (eds.) Proceedings of the 4th Web as Corpus Workshop (WAC-4) – Can we beat Google?, Marrakech, 1 June 2008. (PDF) (Webpage)
