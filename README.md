@@ -2,6 +2,10 @@
 Dataset containing Semantic Relations and Metadata, for Training and Evaluating Distributional Semantic Models
 
 
+WHERE TO FIND IT
+Please explore the branches. Every version will be saved in a new branch, accordingly named.
+- Version 1.0: https://github.com/esantus/EVALution/tree/EVALution_v1.0
+
 
 Cite Us
 
