@@ -51,9 +51,9 @@ This file contains the following fields:
  - distribution of votes: the next five columns are integers that represent the number of votes for each value, with reference to the sentence in the previous field: "strong disagreement" (the first one, value=1), "disagreement", "neutral", "agreement" and "strong agreement" (the last one, value=5).
  - agreement between subjects as reported by Crowdflower.
  - number of subjects who voted the agreement with the sentence.
- - average agreement of the subjects (in the range between 1="strongly disagree" and 5="strongly agree").
+ - average score (in the range between 1="strongly disagree" and 5="strongly agree").
  - variance among the votes.
- - average agreement minus the variance.
+ - average score minus the variance.
  - source from which the pair was extracted.
  - score in the source, if available.
 
