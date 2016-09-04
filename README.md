@@ -34,7 +34,7 @@ RELATA.txt
 
 This file contains the following fields:
   - relatum: this field is an uncapitalized lemma or a multiword expression (spaces in multiword expressions are represented with an underscore: e.g. north_carolina).
-  - tags: this field contains a comma separated list of tags, with their frequency among the total number of annotators (e.g. "SUPERORDINATE_4/26,PLANT_1/26" stays for SUPERORDINATE was tagged by 4 subjects on 26, while PLANT by 1 on 26). NOTE: The reliability of the tags is slow, as some subjects have tried to cheat; we suggest you to rely on tags that were judged at least twice.
+  - tags: this field contains a comma separated list of tags, with their frequency among the total number of annotators (e.g. "SUPERORDINATE_4/26,PLANT_1/26" stays for SUPERORDINATE was tagged by 4 subjects on 26, while PLANT by 1 on 26). NOTE: The reliability of the tags is low: we suggest you to rely only on tags that were judged at least twice.
   - frequency: this is an integer representing the frequency of the term in a combination of ukWac and Wackypedia (see the section CORPORA below for more information).
   - term-dominatPOS: this field contains the term with attached the dominant POS (the most frequent one in the abovementioned corpora). The POS tag is attached with an hyphen and it is represented by one of the following letters: j for adjective, n for noun and v for verb.
   - distribution of POS: every POS is provided with the number of occurrences in the abovementioned corpora (POS tagset is available here: http://wacky.sslmit.unibo.it/lib/exe/fetch.php?media=tagsets:ukwac_tagset.txt). POS are slash separated.
