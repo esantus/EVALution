@@ -1,23 +1,19 @@
 # EVALution
 Dataset containing Semantic Relations and Metadata, for Training and Evaluating Distributional Semantic Models
 
-
-
-Cite Us
-
 The resource is freely available. If you use it, please cite the description paper:
 
 - Enrico Santus, Frances Yung, Alessandro Lenci, and Chu-Ren Huang. 2015. EVALution 1.0: An Evolving Semantic Dataset for Training and Evaluation of Distributional Semantic Models. Proceedings of the 4th Workshop on Linked Data in Linguistics, Beijing.
 
 
 
-Abstract
+## Abstract
 
 In this paper, we introduce EVALution 1.0, a dataset designed for the training and the evaluation of Distributional Semantic Models (DSMs). This version consists of almost 7.5K tuples, instantiating several semantic relations between word pairs (including hypernymy, synonymy, antonymy, meronymy). The dataset is enriched with a large amount of additional information (i.e. relation domain, word frequency, word POS, word semantic field, etc.) that can be used for either filtering the pairs or perform an in-depth analysis of the results. The tuples are initially extracted from a combination of ConceptNet 5.0 and WordNet 4.0, and subsequently filtered through automatic methods and crowdsourcing in order to ensure their quality. The dataset is freely downloadable1 . An extension in RDF format, including also scripts for data processing, is under consideration.
 
 
 
-Format of the Dataset
+## Format of the Dataset
 
 EVALution 1.0 is composed of two files:
   (1) RELATA.txt provides all the information about the relata (terms and multiword expressions); and
@@ -26,7 +22,7 @@ Both of them are structured in a column format, where subfields are separated by
 
 
 
-RELATA.txt
+### RELATA.txt
 
 This file contains the following fields:
   - relatum: this field is an uncapitalized lemma or a multiword expression (spaces in multiword expressions are represented with an underscore: e.g. north_carolina).
@@ -39,7 +35,7 @@ This file contains the following fields:
 
 
 
-RELATION.txt
+### RELATION.txt
 
 This file contains the following fields:
 
@@ -59,7 +55,7 @@ This file contains the following fields:
 
 
 
-CORPORA USED FOR THE ANALYSIS
+## CORPORA USED FOR THE ANALYSIS
 
 - ukWaC: a 2 billion word corpus constructed from the Web limiting the crawl to the .uk domain and using medium-frequency words from the BNC as seeds. The corpus was POS-tagged and lemmatized with the TreeTagger. The tagset is available here, more information can be found in this paper.
 - WaCkypedia_EN: a 2009 dump of the English Wikipedia (about 800 million tokens), in the same format as PukWaC, including POS/lemma information, as well as a full dependency parse (parsing performed with the MaltParser). The texts were extracted from the dump and cleaned using the Wikipedia extractor.
