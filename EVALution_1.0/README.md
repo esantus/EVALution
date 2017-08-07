@@ -1,4 +1,4 @@
-# EVALution
+# EVALution 1.0
 Dataset containing Semantic Relations and Metadata, for Training and Evaluating Distributional Semantic Models
 
 The resource is freely available. If you use it, please cite the description paper:
