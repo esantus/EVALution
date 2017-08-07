@@ -1,21 +1,26 @@
 # EVALution-Man
 
-EVALution-MAN consists of two datasets: (i) one including the pairs extracted from the Chinese Wordnet (CWN); (ii) the other containing the pairs extracted from the elicitation task.
+EVALution-MAN consists of two datasets containing word-relation-word: (i) (one)[http://] including the word-pairs extracted from the Chinese Wordnet (CWN); (ii) the (other)[http://] containing the word-pairs extracted from the elicitation task.
 
-Details about the extraction and elicitation task can be found in the following paper:
+Details about the dataset can be found in the following papers:
 
-* Liu, Hongchao and Chu-Ren Huang. “Mandarin Relata: A Dataset of Word Relations and Their Semantic Types”.2017. 第十八届汉语词汇语义学国际研讨会, 2017. 05.18-20, 乐山师范学院。
+* Liu, Hongchao, Karl Neergaard, Enrico Santus and Chu-Ren Huang. "EVALution-MAN: A Chinese Dataset for the Training and Evaluation of DSMs". LREC 2016.
 
-Word relation pairs which are extracted from CWN which represents Taiwan Mandarin while word relation pairs captured through elicitation task which represents Mainland Mandarin since the subjects are all from Mainland China.
-
-We strongly suggest that don’t merge these two files. They are from different source and represent different Mandarin. What’s more, the two datasets are constructed in different periods and different subjects are involved to rate the word relations and thus they are not consistent enough to be treated as one dataset. 
-
-All of the word relation pairs are validated by human raters. The volunteers were told to rate the word relation according to five options: “totally agree”, “agree”, “don’t know”, “disagree”, “totally disagree”. If the participants did not know either of the target vocabulary they were given the choice of, “don’t know X” and “don’t know Y” respectively.
+* Liu, Hongchao and Chu-Ren Huang. "Mandarin Relata: A Dataset of Word Relations and Their Semantic Types". 2017. 第十八届汉语词汇语义学国际研讨会, 2017. 05.18-20, 乐山师范学院。
 
 
-The two datasets will be introduced in the latter part.
 
-1. Relation from CWN (Taiwan Mandarin)
+## Getting Started
+
+Word-pairs extracted from CWN represent Taiwan Mandarin, while word-pairs captured through elicitation task represents Mainland Mandarin (all subject involved in the task were from Mainland China).
+
+All the word-pairs are validated by human raters. The volunteers were told to rate the word relation according to five options: “totally agree”, “agree”, “don’t know”, “disagree”, “totally disagree”. If the participants did not know either of the target vocabulary they were given the choice of, “don’t know X” and “don’t know Y” respectively.
+
+
+
+## Development
+
+1. Relations from CWN (Taiwan Mandarin) are saved in 
 There are 14 columns for one word relation line.
 (1)	ID
 (2)	Relation
@@ -49,6 +54,15 @@ There are 12 columns for one word relation line. Part of speech information is n
 (12)	don’t know Y
 
 For word relations extracted from elicitation task, each pair is validated by five subjects (not three any more). Only ones received three or more votes from “agree” or “totally agree” can be treated as positive pairs and put into the dataset.
+
+
+## Note
+
+We strongly suggest not to merge the two datasets, as they come from different sources and represent different types of Mandarin.
+
+
+
+
 
 
  
