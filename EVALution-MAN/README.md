@@ -20,38 +20,36 @@ All the word-pairs are validated by human raters. The volunteers were told to ra
 
 ## Development
 
-1. Relations from CWN (Taiwan Mandarin) are saved in 
-There are 14 columns for one word relation line.
-(1)	ID
-(2)	Relation
-(3)	Target word
-(4)	Part of speech of the target word
-(5)	Related word
-(6)	Part of speech of the related word
-(7)	Explanation of the relation
-(8)	totally agree
-(9)	agree
-(10)	don’t know
-(11)	disagree
-(12)	totally disagree
-(13)	don’t know X
-(14)	don’t know Y
+1. Relations extracted from CWN (Taiwan Mandarin) are saved in (FromCWN_TaiwanMandarin.txt)[https://github.com/esantus/EVALution/blob/master/EVALution-MAN/FromCWN_TaiwanMandarin.txt]. Three human raters were involved in the judgement of their reliability. Only pairs that received at least two "agree" (or “totally agree”) votes are considered in the dataset. They are formatted in 14 columns:
+*	ID
+*	Relation
+*	Target word
+*	Part of speech of the target word
+*	Related word
+*	Part of speech of the related word
+*	Explanation of the relation
+*	totally agree
+*	agree
+*	don’t know
+*	disagree
+*	totally disagree
+*	don’t know X
+*	don’t know Y
 
-For word relations extracted from CWN, three human raters are involved to judge their reliability. Only ones received two or votes from “agree” or “totally agree” can be treated as positive pairs and put into the dataset.
-2. Relation from elicitation task (Mainland Mandarin)
-There are 12 columns for one word relation line. Part of speech information is not added.
-(1)	ID
-(2)	Target word
-(3)	relation
-(4)	Related word
-(5)	Explanation of the relation
-(6)	totally agree
-(7)	agree
-(8)	don’t know
-(9)	disagree
-(10)	totally disagree
-(11)	don’t know X
-(12)	don’t know Y
+
+2. Relations from the elicitation task (Mainland Mandarin) are saved in (FromElicitation_MainlandMandarin.txt)[https://github.com/esantus/EVALution/blob/master/EVALution-MAN/FromElicitation_MainlandMandarin.txt]. Each pair is validated by five subjects: only pairs that received three or more “agree” (or “totally agree”) votes are considered in the dataset. They are formatted in 12 columns, as part of speech is not present for this dataset:
+*	ID
+*	Target word
+*	Relation
+*	Related word
+*	Explanation of the relation
+**	totally agree
+**	agree
+**	don’t know
+**	disagree
+**	totally disagree
+**	don’t know X
+**	don’t know Y
 
 For word relations extracted from elicitation task, each pair is validated by five subjects (not three any more). Only ones received three or more votes from “agree” or “totally agree” can be treated as positive pairs and put into the dataset.
 
